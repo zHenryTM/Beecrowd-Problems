@@ -16,7 +16,7 @@ void atualizar_coord_inimigo(double *Xi, double *Yi, double Xf, double Yf, doubl
         *Yi = *Yi + (1.5 * Wy * Vi / modulo_w);
     } else {
         // Já que o inimigo está no mesmo ponto que o jogador, posso escolher arbitrariamente a direção do movimento do inimigo,
-        // então, para facilitar os cálculos, escolhi a diretação horizontal para alterar, apenas, o eixo x.
+        // então, para facilitar os cálculos, escolhi a direção horizontal para alterar, apenas, o eixo x.
         
         *Xi = *Xi + 1.5 * Vi;
     }
